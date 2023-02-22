@@ -1,0 +1,77 @@
+body {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+p {
+  color: white;
+  font-size: 5vw;
+  margin: 0rem;
+  text-transform: capitalize;
+  font-family: 'Rubik', sans-serif;
+  /* border: dashed; */
+}
+.mainList {
+  display: none;
+}
+
+/* ANIMATION style FOR LOADING SCREEN */
+.hello {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.7em;
+  font-family: 'Rubik', sans-serif;
+}
+.hello .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.hello .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+/* CONTENT */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .resume,
+.work {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+} */
+
+/* .connor { */
+/* position: absolute; */
+/* translate: 0; */
+/* color: red; */
+
+/* .work { */
+/* position: absolute; */
+/* translate: 0.5em 3em; */
+
+/* .about { */
+/* position: absolute; */
+/* translate: em em; */
+
+/* .connect { */
+/* position: absolute; */
+/* translate: em em; */
+
+/* .resume { */
+/* position: absolute; */
+/* translate: 3.05em; */
