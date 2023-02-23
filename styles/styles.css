@@ -40,6 +40,11 @@ p {
   display: inline-block;
   line-height: 1em;
 }
+.hello .letter2 {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
 
 /* CONTENT */
 .container {
